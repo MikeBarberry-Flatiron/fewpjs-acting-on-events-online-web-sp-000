@@ -14,7 +14,6 @@ document.addEventListener("keydown", function(e) {
   }
 });
 
-
 function moveDodgerRight() {
   let rightNumbers = dodger.style.right.replace("px", "");
   let right = parseInt(rightNumbers, 10);
@@ -24,8 +23,8 @@ function moveDodgerRight() {
   }
 }
 
-document.addEventListener("keydown", function(e) {
-  if (e.key === "ArrowRight") {
+document.addEventListener("keydown", function(f) {
+  if (f.key === "ArrowLeft") {
     moveDodgerRight();
   }
 });
